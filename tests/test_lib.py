@@ -1,4 +1,4 @@
-from lib.func_utils import power
+from src.lib.func_utils import power
 
 
 def test_power():

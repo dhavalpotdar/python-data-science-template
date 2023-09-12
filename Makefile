@@ -3,13 +3,13 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=src --cov=lib ./tests/test_*.py
+	python -m pytest -vv --cov=main --cov=lib tests/test_*.py
 
 format:	
-	black ./src/*.py ./lib/*.py ./tests/*.py
+	black *.py lib/*.py tests/*.py
 
 lint:
-	pylint --disable=R,C ./src/*.py /workspaces/python-data-science-template-v2/lib/*.py
+	pylint --disable=R,C *.py lib/*.py
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile

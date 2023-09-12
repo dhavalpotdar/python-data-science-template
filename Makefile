@@ -9,7 +9,7 @@ format:
 	black ./src/*.py ./lib/*.py ./tests/*.py
 
 lint:
-	pylint --disable=R,C ./src/*.py ./lib/*.py
+	pylint --disable=R,C ./src/*.py /workspaces/python-data-science-template-v2/lib/*.py
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile

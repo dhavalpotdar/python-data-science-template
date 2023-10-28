@@ -1,4 +1,4 @@
-# python-data-science-template-v2
+# Python Data Science Template
 
 [![Codespaces Prebuilds](https://github.com/nogibjj/python-data-science-template-v2/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/nogibjj/python-data-science-template-v2/actions/workflows/codespaces/create_codespaces_prebuilds) 
 
